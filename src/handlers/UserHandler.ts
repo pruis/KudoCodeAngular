@@ -33,7 +33,7 @@ export class CellNumberValid extends Handler {
 export class EmailValid extends Handler {
   handle(req: IEmailProperty, rsp: HandlerResponse): any {
     if (!req.email)
-      rsp.errors.push("Cell Number can not be empty");
+      rsp.errors.push("Email can not be empty");
   }
 }
 
